@@ -1,0 +1,30 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>19 Button Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        button {
+            padding: 15px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        button.active {
+            background-color: #4CAF50;
+            color: white;
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container" id="buttonGrid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
