@@ -25,6 +25,17 @@
             display: flex;
             gap: 10px;
         }
+        .status-panel {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .status-item {
+            font-size: 1.2em;
+        }
         .location-selector, .clear-button {
             padding: 8px;
             font-size: 1em;
@@ -80,6 +91,11 @@
             </select>
             <button class="clear-button" id="clearButton">Clear All</button>
         </div>
+    </div>
+
+    <div class="status-panel">
+        <div class="status-item">Passengers: <span id="passengerCount">0</span>/19</div>
+        <div class="status-item">Location: <span id="currentLocation">Not selected</span></div>
     </div>
 
     <div class="driver-area">⬆️ DRIVER ⬆️</div>
