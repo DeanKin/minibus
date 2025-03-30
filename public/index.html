@@ -1,30 +1,136 @@
-<!-- public/index.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>19 Button Grid</title>
+    <title>Minibus Seat Layout</title>
     <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 10px;
+        body {
+            font-family: Arial, sans-serif;
             max-width: 800px;
-            margin: 20px auto;
+            margin: 0 auto;
+            padding: 20px;
         }
-        button {
-            padding: 15px;
-            font-size: 16px;
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .clock {
+            font-size: 1.2em;
+        }
+        .control-panel {
+            display: flex;
+            gap: 10px;
+        }
+        .location-selector, .clear-button {
+            padding: 8px;
+            font-size: 1em;
+            border-radius: 4px;
+        }
+        .clear-button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .seat-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .seat-row {
+            display: contents;
+        }
+        .seat {
+            padding: 20px;
+            text-align: center;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            cursor: pointer;
             transition: all 0.3s;
         }
-        button.active {
+        .seat.active {
             background-color: #4CAF50;
             color: white;
             transform: scale(0.95);
         }
+        .empty-seat {
+            visibility: hidden;
+        }
+        .driver-area {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <div class="grid-container" id="buttonGrid"></div>
+    <div class="header">
+        <div class="clock" id="liveClock"></div>
+        <div class="control-panel">
+            <select class="location-selector" id="locationSelect">
+                <option value="">Select Location</option>
+                <option value="Chai Wan">Chai Wan</option>
+                <option value="Shau Kei Wan">Shau Kei Wan</option>
+                <option value="Wan Chai">Wan Chai</option>
+            </select>
+            <button class="clear-button" id="clearButton">Clear All</button>
+        </div>
+    </div>
+
+    <div class="driver-area">⬆️ DRIVER ⬆️</div>
+
+    <div class="seat-grid" id="seatGrid">
+        <!-- Row 1 - 2 seats -->
+        <div class="seat-row">
+            <div class="empty-seat"></div>
+            <div class="seat" onclick="toggleSeat(1)">SEAT_01</div>
+            <div class="seat" onclick="toggleSeat(2)">SEAT_02</div>
+            
+        </div>
+        
+        <!-- Row 2 - 2 seats -->
+        <div class="seat-row">
+            <div class="empty-seat"></div>
+            <div class="seat" onclick="toggleSeat(3)">SEAT_03</div>
+            <div class="seat" onclick="toggleSeat(4)">SEAT_04</div>
+            
+        </div>
+        
+        <!-- Row 3 - 3 seats -->
+        <div class="seat-row">
+            <div class="seat" onclick="toggleSeat(5)">SEAT_05</div>
+            <div class="seat" onclick="toggleSeat(6)">SEAT_06</div>
+            <div class="seat" onclick="toggleSeat(7)">SEAT_07</div>
+        </div>
+        
+        <!-- Rows 4-7 - 3 seats each -->
+        <div class="seat-row">
+            <div class="seat" onclick="toggleSeat(8)">SEAT_08</div>
+            <div class="seat" onclick="toggleSeat(9)">SEAT_09</div>
+            <div class="seat" onclick="toggleSeat(10)">SEAT_10</div>
+        </div>
+        <div class="seat-row">
+            <div class="seat" onclick="toggleSeat(11)">SEAT_11</div>
+            <div class="seat" onclick="toggleSeat(12)">SEAT_12</div>
+            <div class="seat" onclick="toggleSeat(13)">SEAT_13</div>
+        </div>
+        <div class="seat-row">
+            <div class="seat" onclick="toggleSeat(14)">SEAT_14</div>
+            <div class="seat" onclick="toggleSeat(15)">SEAT_15</div>
+            <div class="seat" onclick="toggleSeat(16)">SEAT_16</div>
+        </div>
+        <div class="seat-row">
+            <div class="seat" onclick="toggleSeat(17)">SEAT_17</div>
+            <div class="seat" onclick="toggleSeat(18)">SEAT_18</div>
+            <div class="seat" onclick="toggleSeat(19)">SEAT_19</div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
