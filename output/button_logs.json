@@ -1,0 +1,613 @@
+[
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:45:4",
+    "location": "Station 1",
+    "buttonId": 7,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:46:17",
+    "location": "Unknown location",
+    "action": "All data cleared",
+    "total": 0
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:46:19",
+    "location": "Station 1",
+    "buttonId": 3,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:46:19",
+    "location": "Station 1",
+    "buttonId": 6,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:46:20",
+    "location": "Station 1",
+    "buttonId": 7,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:46:20",
+    "location": "Station 1",
+    "buttonId": 10,
+    "state": "ON",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:46:20",
+    "location": "Station 1",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:47:7",
+    "location": "Unknown location",
+    "action": "All data cleared",
+    "total": 0
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:5",
+    "location": "Station 1",
+    "buttonId": 1,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:5",
+    "location": "Station 1",
+    "buttonId": 3,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:6",
+    "location": "Station 1",
+    "buttonId": 6,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:6",
+    "location": "Station 1",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:6",
+    "location": "Station 1",
+    "buttonId": 12,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:19",
+    "location": "Station 1",
+    "buttonId": 3,
+    "state": "OFF",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:50:20",
+    "location": "Station 1",
+    "buttonId": 4,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:51:32",
+    "location": "Station 1",
+    "buttonId": 10,
+    "state": "ON",
+    "total": 6
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:51:32",
+    "location": "Station 1",
+    "buttonId": 13,
+    "state": "ON",
+    "total": 7
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:51:33",
+    "location": "Station 1",
+    "buttonId": 16,
+    "state": "ON",
+    "total": 8
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:51:33",
+    "location": "Station 1",
+    "buttonId": 15,
+    "state": "ON",
+    "total": 9
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=14:51:33",
+    "location": "Station 1",
+    "buttonId": 14,
+    "state": "ON",
+    "total": 10
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:36:27",
+    "location": "Station 1",
+    "buttonId": 3,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:36:27",
+    "location": "Station 1",
+    "buttonId": 5,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:36:28",
+    "location": "Station 1",
+    "buttonId": 8,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:43:52",
+    "location": "Station 1",
+    "buttonId": 5,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:43:52",
+    "location": "Station 1",
+    "buttonId": 7,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:43:53",
+    "location": "Station 1",
+    "buttonId": 16,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:43:54",
+    "location": "Unknown location",
+    "action": "All data cleared",
+    "total": 0
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:43:59",
+    "location": "Station 3",
+    "buttonId": 6,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:44:0",
+    "location": "Station 3",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:44:0",
+    "location": "Station 3",
+    "buttonId": 8,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:44:0",
+    "location": "Station 3",
+    "buttonId": 14,
+    "state": "ON",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:44:1",
+    "location": "Station 3",
+    "buttonId": 16,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:44:2",
+    "location": "Station 3",
+    "buttonId": 19,
+    "state": "ON",
+    "total": 6
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:50:56",
+    "location": "Unknown location",
+    "action": "All data cleared",
+    "total": 0
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:50:58",
+    "location": "Station 1",
+    "buttonId": 1,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:50:59",
+    "location": "Station 1",
+    "buttonId": 2,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:50:59",
+    "location": "Station 1",
+    "buttonId": 4,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:0",
+    "location": "Station 1",
+    "buttonId": 7,
+    "state": "ON",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:0",
+    "location": "Station 1",
+    "buttonId": 6,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:3",
+    "location": "Station 2",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 6
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:3",
+    "location": "Station 2",
+    "buttonId": 8,
+    "state": "ON",
+    "total": 7
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:4",
+    "location": "Station 2",
+    "buttonId": 11,
+    "state": "ON",
+    "total": 8
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:4",
+    "location": "Station 2",
+    "buttonId": 12,
+    "state": "ON",
+    "total": 9
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:4",
+    "location": "Station 2",
+    "buttonId": 13,
+    "state": "ON",
+    "total": 10
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:26",
+    "location": "Station 6",
+    "buttonId": 3,
+    "state": "ON",
+    "total": 11
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:27",
+    "location": "Station 6",
+    "buttonId": 12,
+    "state": "OFF",
+    "total": 10
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:27",
+    "location": "Station 6",
+    "buttonId": 13,
+    "state": "OFF",
+    "total": 9
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:27",
+    "location": "Station 6",
+    "buttonId": 7,
+    "state": "OFF",
+    "total": 8
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:28",
+    "location": "Station 6",
+    "buttonId": 9,
+    "state": "OFF",
+    "total": 7
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:28",
+    "location": "Station 6",
+    "buttonId": 11,
+    "state": "OFF",
+    "total": 6
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:29",
+    "location": "Station 6",
+    "buttonId": 8,
+    "state": "OFF",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:51:30",
+    "location": "Station 6",
+    "buttonId": 4,
+    "state": "OFF",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:30",
+    "location": "Station 6",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:31",
+    "location": "Station 6",
+    "buttonId": 12,
+    "state": "ON",
+    "total": 6
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:31",
+    "location": "Station 6",
+    "buttonId": 13,
+    "state": "ON",
+    "total": 7
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:32",
+    "location": "Station 6",
+    "buttonId": 16,
+    "state": "ON",
+    "total": 8
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:51",
+    "location": "Station 6",
+    "buttonId": 11,
+    "state": "ON",
+    "total": 9
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:51",
+    "location": "Station 6",
+    "buttonId": 8,
+    "state": "ON",
+    "total": 10
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:54",
+    "location": "Station 8",
+    "buttonId": 7,
+    "state": "ON",
+    "total": 11
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:55",
+    "location": "Station 8",
+    "buttonId": 10,
+    "state": "ON",
+    "total": 12
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:55",
+    "location": "Station 8",
+    "buttonId": 15,
+    "state": "ON",
+    "total": 13
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:55",
+    "location": "Station 8",
+    "buttonId": 18,
+    "state": "ON",
+    "total": 14
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=15:54:56",
+    "location": "Station 8",
+    "buttonId": 19,
+    "state": "ON",
+    "total": 15
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:10",
+    "location": "Unknown location",
+    "action": "All data cleared",
+    "total": 0
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:12",
+    "location": "Start",
+    "buttonId": 1,
+    "state": "ON",
+    "total": 1
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:12",
+    "location": "Start",
+    "buttonId": 3,
+    "state": "ON",
+    "total": 2
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:13",
+    "location": "Start",
+    "buttonId": 5,
+    "state": "ON",
+    "total": 3
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:13",
+    "location": "Start",
+    "buttonId": 6,
+    "state": "ON",
+    "total": 4
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:13",
+    "location": "Start",
+    "buttonId": 7,
+    "state": "ON",
+    "total": 5
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:14",
+    "location": "Start",
+    "buttonId": 10,
+    "state": "ON",
+    "total": 6
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:14",
+    "location": "Start",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 7
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:14",
+    "location": "Start",
+    "buttonId": 12,
+    "state": "ON",
+    "total": 8
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:17",
+    "location": "Station 1",
+    "buttonId": 2,
+    "state": "ON",
+    "total": 9
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:18",
+    "location": "Station 1",
+    "buttonId": 4,
+    "state": "ON",
+    "total": 10
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:19",
+    "location": "Station 1",
+    "buttonId": 13,
+    "state": "ON",
+    "total": 11
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:19",
+    "location": "Station 1",
+    "buttonId": 16,
+    "state": "ON",
+    "total": 12
+  },
+  {
+    "car": "Car 1",
+    "timestamp": "13/4/2025 T=16:3:19",
+    "location": "Station 1",
+    "buttonId": 15,
+    "state": "ON",
+    "total": 13
+  }
+]

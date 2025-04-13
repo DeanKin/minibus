@@ -1,4 +1,4 @@
-// script.js
+// public/script.js
 let passengerCount = 0;
 let currentLocation = 'Not selected';
 
