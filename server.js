@@ -110,7 +110,7 @@ app.post('/clear', (req, res) => {
     const logEntry = {
         car,
         timestamp,
-        location: 'Unknown location',
+        location: 'Off',
         action: 'All data cleared',
         total: 0,
     };

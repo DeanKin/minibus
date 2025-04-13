@@ -1,50 +1,49 @@
 {
   "Car 1": {
     "car": "Car 1",
-    "timestamp": "13/4/2025 T=16:3:19",
-    "location": "Station 1",
-    "buttonId": 15,
-    "state": "ON",
-    "total": 13
+    "timestamp": "13/4/2025 T=16:29:4",
+    "location": "Off",
+    "action": "All data cleared",
+    "total": 0
   },
   "Car 2": {
     "car": "Car 2",
-    "timestamp": "13/4/2025 T=16:6:24",
-    "location": "Station 7",
-    "buttonId": 1,
+    "timestamp": "13/4/2025 T=16:29:15",
+    "location": "Station 3",
+    "buttonId": 12,
     "state": "OFF",
-    "total": 2
+    "total": 11
   },
   "Car 3": {
     "car": "Car 3",
-    "timestamp": "13/4/2025 T=16:6:34",
-    "location": "Station 4",
-    "buttonId": 8,
-    "state": "OFF",
-    "total": 1
-  },
-  "Car 4": {
-    "car": "Car 4",
-    "timestamp": "13/4/2025 T=16:6:44",
+    "timestamp": "13/4/2025 T=16:30:25",
     "location": "Station 6",
-    "buttonId": 7,
-    "state": "ON",
-    "total": 7
-  },
-  "Car 5": {
-    "car": "Car 5",
-    "timestamp": "13/4/2025 T=16:6:14",
-    "location": "Start",
-    "buttonId": 11,
+    "buttonId": 8,
     "state": "ON",
     "total": 14
   },
+  "Car 4": {
+    "car": "Car 4",
+    "timestamp": "13/4/2025 T=16:29:35",
+    "location": "Station 4",
+    "buttonId": 17,
+    "state": "OFF",
+    "total": 18
+  },
+  "Car 5": {
+    "car": "Car 5",
+    "timestamp": "13/4/2025 T=16:30:35",
+    "location": "Station 2",
+    "buttonId": 14,
+    "state": "ON",
+    "total": 9
+  },
   "Car 6": {
     "car": "Car 6",
-    "timestamp": "13/4/2025 T=16:6:4",
-    "location": "Station 7",
-    "buttonId": 7,
+    "timestamp": "13/4/2025 T=16:28:25",
+    "location": "Start",
+    "buttonId": 1,
     "state": "OFF",
-    "total": 16
+    "total": 7
   }
 }
