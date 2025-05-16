@@ -1,49 +1,50 @@
 {
   "Car 1": {
     "car": "Car 1",
-    "timestamp": "13/4/2025 T=16:29:4",
-    "location": "Off",
-    "action": "All data cleared",
-    "total": 0
+    "timestamp": "16/5/2025 T=13:2:9",
+    "location": "1.盛泰道",
+    "buttonId": 5,
+    "state": "ON",
+    "total": 7
   },
   "Car 2": {
     "car": "Car 2",
-    "timestamp": "13/4/2025 T=16:29:15",
-    "location": "Station 3",
-    "buttonId": 12,
+    "timestamp": "16/5/2025 T=13:4:15",
+    "location": "11.翠灣街",
+    "buttonId": 4,
     "state": "OFF",
-    "total": 11
+    "total": 4
   },
   "Car 3": {
     "car": "Car 3",
-    "timestamp": "13/4/2025 T=16:30:25",
-    "location": "Station 6",
-    "buttonId": 8,
-    "state": "ON",
-    "total": 14
+    "timestamp": "16/5/2025 T=13:6:45",
+    "location": "5.小西灣道",
+    "buttonId": 2,
+    "state": "OFF",
+    "total": 4
   },
   "Car 4": {
     "car": "Car 4",
-    "timestamp": "13/4/2025 T=16:29:35",
-    "location": "Station 4",
-    "buttonId": 17,
-    "state": "OFF",
-    "total": 18
+    "timestamp": "16/5/2025 T=13:5:55",
+    "location": "8.常安街",
+    "buttonId": 11,
+    "state": "ON",
+    "total": 19
   },
   "Car 5": {
     "car": "Car 5",
-    "timestamp": "13/4/2025 T=16:30:35",
-    "location": "Station 2",
-    "buttonId": 14,
-    "state": "ON",
-    "total": 9
+    "timestamp": "16/5/2025 T=13:6:55",
+    "location": "5.小西灣道",
+    "buttonId": 12,
+    "state": "OFF",
+    "total": 0
   },
   "Car 6": {
     "car": "Car 6",
-    "timestamp": "13/4/2025 T=16:28:25",
-    "location": "Start",
-    "buttonId": 1,
+    "timestamp": "16/5/2025 T=13:7:5",
+    "location": "4.新業街",
+    "buttonId": 3,
     "state": "OFF",
-    "total": 7
+    "total": 6
   }
 }

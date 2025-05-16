@@ -78,6 +78,31 @@
             margin-bottom: 20px;
             font-weight: bold;
         }
+        .location-selector, .clear-button, .point-button {
+        padding: 8px;
+        font-size: 1em;
+        border-radius: 4px;
+    }
+
+    /* Styles specific to the new button */
+    .point-button {
+        background-color: #4CAF50; /* Green color */
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    /* Optional: Hover effect */
+    .point-button:hover {
+        background-color: #45a049;
+    }
+
+    /* Keep existing .clear-button styles */
+    .clear-button {
+        background-color: #f44336;
+        /* other properties remain same */
+    }
     </style>
 </head>
 <body>
@@ -86,21 +111,18 @@
         <div class="control-panel">
             <select class="location-selector" id="locationSelect">
                 <option value="">Select Location</option>
-                <option value="0.杏花邨公共運輸交匯處">0.杏花邨公共運輸交匯處</option>
-                <option value="1.盛泰道">1.盛泰道</option>
-                <option value="2.永泰道">2.永泰道</option>
-                <option value="3.嘉業街">3.嘉業街</option>
-                <option value="4.新業街">4.新業街</option>
-                <option value="5.小西灣道">5.小西灣道</option>
-                <option value="6.新業街">6.新業街</option>
-                <option value="7.嘉業街">7.嘉業街</option>
-                <option value="8.常安街">8.常安街</option>
-                <option value="9.柴灣道">9.柴灣道</option>
-                <option value="10.永泰道">10.永泰道</option>
-                <option value="11.翠灣街">11.翠灣街</option>
-                <option value="12.順泰道">12.順泰道</option>
-                <option value="13.盛泰道">13.盛泰道</option>
+                <option value="Start">Start</option>
+                <option value="Station 1">Station 1</option>
+                <option value="Station 2">Station 2</option>
+                <option value="Station 3">Station 3</option>
+                <option value="Station 4">Station 4</option>
+                <option value="Station 5">Station 5</option>
+                <option value="Station 6">Station 6</option>
+                <option value="Station 7">Station 7</option>
+                <option value="Station 8">Station 8</option>
+                <option value="Station 9">Station 9</option>
             </select>
+            <button class="point-button" id="startEndButton">Start Point</button>
             <button class="clear-button" id="clearButton">Clear All</button>
         </div>
     </div>
