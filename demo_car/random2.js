@@ -5,30 +5,22 @@ const path = require('path');
 const latestRecordPath = path.join(__dirname, '..', 'output', 'latest_record.json');
 
 // Array of possible locations
-const locations = ["杏花邨公共運輸交匯處", "1.盛泰道", "2.永泰道", "3.嘉業街", "4.新業街", "5.小西灣道", "6.新業街", "7.嘉業街", "8.常安街", "9.柴灣道", "10.永泰道", "11.翠灣街", "12.順泰道", "13.盛泰道"];
-
-// Locations that must have "往小西灣" as location2
-const siuSaiWanDestinations = ["杏花邨公共運輸交匯處", "1.盛泰道", "2.永泰道", "3.嘉業街", "4.新業街"];
-
+const locations = ["杏花邨公共運輸交匯處","1.盛泰道", "2.永泰道", "3.嘉業街", "4.新業街", "5.小西灣道", "6.新業街", "7.嘉業街", "8.常安街", "9.柴灣道", "10.永泰道", "11.翠灣街", "12.順泰道", "13.盛泰道"];
+const locations2 = ["往杏花邨", "往小西灣"];
 // Function to generate a random record for a given car
 function generateRandomRecord(car) {
     const now = new Date();
-    const hours = String(now.getHours()).padStart(2, '0');
-    const minutes = String(now.getMinutes()).padStart(2, '0');
-    const seconds = String(now.getSeconds()).padStart(2, '0');
-    const timestamp = `${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} T=${hours}:${minutes}:${seconds}`;
+    const timestamp = `${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} T=${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
 
     // Randomly select a location from the locations array
     const randomLocation = locations[Math.floor(Math.random() * locations.length)];
-    const location2 = siuSaiWanDestinations.includes(randomLocation) 
-        ? "往小西灣" 
-        : "往杏花邨";
+    const randomLocation2 = locations2[Math.floor(Math.random() * locations2.length)];
 
     return {
         car, // Use the provided car name
         timestamp,
         location: randomLocation, // Random location from the predefined list
-        location2: location2,    // Determined by location rules
+        location2: randomLocation2, // Random location from the predefined list
         buttonId: Math.floor(Math.random() * 19) + 1, // Random button ID between 1 and 19
         state: Math.random() > 0.5 ? "ON" : "OFF", // Random state (ON or OFF)
         total: Math.floor(Math.random() * 20), // Random total between 0 and 19
@@ -70,7 +62,7 @@ function updateLatestRecord() {
     console.log(newRecord);
 }
 
-// Run the update function every 7 seconds
-setInterval(updateLatestRecord, 7000); // 10000 milliseconds = 10 seconds
+// Run the update function every 10 seconds
+setInterval(updateLatestRecord, 10000); // 10000 milliseconds = 10 seconds
 
-console.log("random.js is running and will update records every 7 seconds...");
+console.log("random.js is running and will update records every 10 seconds...");

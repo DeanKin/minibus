@@ -1,50 +1,56 @@
 {
   "Car 1": {
     "car": "Car 1",
-    "timestamp": "16/5/2025 T=13:2:9",
-    "location": "1.盛泰道",
-    "buttonId": 5,
-    "state": "ON",
-    "total": 7
-  },
-  "Car 2": {
-    "car": "Car 2",
-    "timestamp": "16/5/2025 T=13:4:15",
-    "location": "11.翠灣街",
-    "buttonId": 4,
-    "state": "OFF",
-    "total": 4
-  },
-  "Car 3": {
-    "car": "Car 3",
-    "timestamp": "16/5/2025 T=13:6:45",
-    "location": "5.小西灣道",
-    "buttonId": 2,
-    "state": "OFF",
-    "total": 4
-  },
-  "Car 4": {
-    "car": "Car 4",
-    "timestamp": "16/5/2025 T=13:5:55",
-    "location": "8.常安街",
-    "buttonId": 11,
-    "state": "ON",
-    "total": 19
-  },
-  "Car 5": {
-    "car": "Car 5",
-    "timestamp": "16/5/2025 T=13:6:55",
-    "location": "5.小西灣道",
-    "buttonId": 12,
+    "timestamp": "16/5/2025 T=14:35:23",
+    "location": "杏花邨公共運輸交匯處",
+    "location2": "往小西灣",
+    "buttonId": 1,
     "state": "OFF",
     "total": 0
   },
+  "Car 2": {
+    "car": "Car 2",
+    "timestamp": "16/5/2025 T=14:40:13",
+    "location": "杏花邨公共運輸交匯處",
+    "location2": "往小西灣",
+    "buttonId": 14,
+    "state": "OFF",
+    "total": 18
+  },
+  "Car 3": {
+    "car": "Car 3",
+    "timestamp": "16/5/2025 T=14:39:59",
+    "location": "11.翠灣街",
+    "location2": "往杏花邨",
+    "buttonId": 9,
+    "state": "ON",
+    "total": 8
+  },
+  "Car 4": {
+    "car": "Car 4",
+    "timestamp": "16/5/2025 T=14:39:31",
+    "location": "11.翠灣街",
+    "location2": "往杏花邨",
+    "buttonId": 16,
+    "state": "ON",
+    "total": 16
+  },
+  "Car 5": {
+    "car": "Car 5",
+    "timestamp": "16/5/2025 T=14:38:42",
+    "location": "13.盛泰道",
+    "location2": "往杏花邨",
+    "buttonId": 18,
+    "state": "OFF",
+    "total": 1
+  },
   "Car 6": {
     "car": "Car 6",
-    "timestamp": "16/5/2025 T=13:7:5",
-    "location": "4.新業街",
-    "buttonId": 3,
+    "timestamp": "16/5/2025 T=14:39:10",
+    "location": "3.嘉業街",
+    "location2": "往小西灣",
+    "buttonId": 4,
     "state": "OFF",
-    "total": 6
+    "total": 3
   }
 }

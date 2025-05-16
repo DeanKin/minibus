@@ -61,14 +61,19 @@ app.post('/button/:id', (req, res) => {
         const total = Object.values(buttonStates).reduce((a, b) => a + b, 0);
 
         const now = new Date();
-        const timestamp = `${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} T=${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+        const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const seconds = String(now.getSeconds()).padStart(2, '0');
+        const timestamp = `${now.getDate()}/${now.getMonth()+1}/${now.getFullYear()} T=${hours}:${minutes}:${seconds}`;
         const location = req.body.location || 'Unknown location';
+        const location2 = req.body.location2 || 'Unknown location';
 
         // Create a log entry
         const logEntry = {
             car,
             timestamp,
             location,
+            location2,
             buttonId,
             state: buttonStates[buttonId] ? 'ON' : 'OFF',
             total,
@@ -111,6 +116,7 @@ app.post('/clear', (req, res) => {
         car,
         timestamp,
         location: 'Off',
+        location2: 'Off',
         action: 'All data cleared',
         total: 0,
     };
