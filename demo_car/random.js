@@ -5,10 +5,10 @@ const path = require('path');
 const latestRecordPath = path.join(__dirname, '..', 'output', 'latest_record.json');
 
 // Array of possible locations
-const locations = ["杏花邨公共運輸交匯處", "1.盛泰道", "2.永泰道", "3.嘉業街", "4.新業街", "5.小西灣道", "6.新業街", "7.嘉業街", "8.常安街", "9.柴灣道", "10.永泰道", "11.翠灣街", "12.順泰道", "13.盛泰道"];
+const locations = ["Hang Fa Chuen PTI", "1.Shing Tai Rd", "2.Wing Tai Rd", "3.Ka Yip St", "4.Sun Yip St", "5.Siu Sai Wan Rd", "Cheerful Garden","6.Sun Yip St", "7.Ka Yip St", "8.Sheung On St", "9.Chai Wan Rd", "10.Wing Tai St", "11.Tsui Wan St", "12.Shun Tai St", "13.Shing Tai Rd"];
 
 // Locations that must have "往小西灣" as location2
-const siuSaiWanDestinations = ["杏花邨公共運輸交匯處", "1.盛泰道", "2.永泰道", "3.嘉業街", "4.新業街"];
+const siuSaiWanDestinations = ["Hang Fa Chuen PTI", "1.Shing Tai Rd", "2.Wing Tai Rd", "3.Ka Yip St", "4.Sun Yip St","5.Siu Sai Wan Rd"];
 
 // Function to generate a random record for a given car
 function generateRandomRecord(car) {
@@ -21,8 +21,8 @@ function generateRandomRecord(car) {
     // Randomly select a location from the locations array
     const randomLocation = locations[Math.floor(Math.random() * locations.length)];
     const location2 = siuSaiWanDestinations.includes(randomLocation) 
-        ? "往小西灣" 
-        : "往杏花邨";
+        ? "Siu Sai Wan" 
+        : "Hang Fa Chuen PTI";
 
     return {
         car, // Use the provided car name
@@ -70,7 +70,7 @@ function updateLatestRecord() {
     console.log(newRecord);
 }
 
-// Run the update function every 7 seconds
-setInterval(updateLatestRecord, 7000); // 10000 milliseconds = 10 seconds
+// Run the update function every 10 seconds
+setInterval(updateLatestRecord, 10000); // 10000 milliseconds = 10 seconds
 
-console.log("random.js is running and will update records every 7 seconds...");
+console.log("random.js is running and will update records every 10 seconds...");
